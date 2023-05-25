@@ -1,1 +1,0 @@
-# JavaProgramming beginner programmes
