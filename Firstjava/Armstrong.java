@@ -9,12 +9,12 @@ public class Armstrong {
         int number=input.nextInt();
         int temp=number;
         int sum=0;
-        String stringcon=String.valueOf(number);
-        int length=stringcon.length();
-        int digit=0;
+        String str_of_num=String.valueOf(number);
+        int length=str_of_num.length();
+        int digit;
         while(temp!=0){
             digit=temp%10;
-            temp=(int)(temp/10);
+            temp=temp/10;
             sum+=(Math.pow(digit,length));
         }
         if (sum==number){
